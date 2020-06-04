@@ -9,7 +9,7 @@ def hello():
 
 @app.route("/John")
 def John():
-  return "Hallo John!"
+  return "Hallo John! Added something too!"
 
 @app.route('/Welcome/<name>')
 def Welcome_name(name):
