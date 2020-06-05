@@ -20,10 +20,12 @@
 \maketitle
 \section{Installation}
 Installation mit dem jeweiligen Paketmanager der Distribution bzw. direkt via https://git-scm.com/download
-\subsection{Erstellen}
-git init    -- erstellt ein neues Repository in einem Verzeichnis bzw. reinitialisiert ein vorhandenes Repository  \\
-git add   -- Datei(en) zum Index hinzufügen \\
-git commit   -- Dateien versionieren \\
+\subsection{lokales Repository erstellen und verwalten}
+git init         -- erstellt ein neues Repository in einem Verzeichnis bzw. \\
+                    reinitialisiert ein vorhandenes Repository  \\
+git add          -- Datei(en) zum Index hinzufügen \\
+git commit       -- Dateien versionieren, Änderungen am Repository aufzeichnen \\
+git rm --cached  -- Datei(en) aus dem Arbeitsbaum und aus dem Repository entfernen \\
 
 \subsection{Verstehen}
 Git erstellt snapshots eines Verzeichnisses, Daten (Dateien) werden immer hinzugefügt. \\
@@ -32,5 +34,8 @@ Git kennt drei Zustände \\
 - staged    -- Datei geaddet, aber noch nicht commited \\
 - commited -- Änderungen an der Datei wurden per commit bestätigt - Änderungen werden am Repository aufgezeichnet
 
+\subsection{mit remote Repository arbeiten}
+git remote -- Verwalte einen Satz verfolgter Repositories\\
+git clone https://github.com/user/git-verzeichnis.git   -- legt ein Verzeichnis git-verzeichnis.git an, initialisiert in diesem ein .git Verzeichnis und lädt alle Daten des Repositories herunter.
 
 \end{document}  
