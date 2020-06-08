@@ -1,6 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, session
 app = Flask(__name__)
 
+# 
+app_secret_key = 'personal secret'
+app.config['SESSION_TYPE'] = 'filesystem'
 
 @app.route("/")
 def home():
