@@ -1,0 +1,3 @@
+Das ist ein Text, der in einer Datei landen soll.
+Das sollte jetzt die zweite Zeile in der Datei werden.
+Das wird jetzt die dritte Zeile in der Datei werden.
